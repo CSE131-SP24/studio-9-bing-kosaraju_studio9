@@ -8,6 +8,7 @@ import java.util.Map;
 import support.cse131.NotYetImplementedException;
 
 public class WordCount {
+	LinkedList wordList = new LinkedList<String>();
 	/**
 	 * Constructs and returns a map of the distinct words in the specified list with
 	 * each word associated with its accumulated count (that is: the number of
@@ -28,9 +29,22 @@ public class WordCount {
 	 * @return a map which contains all of the distinct words as keys, each
 	 *         associated with the number of occurrences of the word
 	 */
+	
+		
+			
+		}
+		return 0;
+	}
 	public static Map<String, Integer> countWords(List<String> words) {
-
-		// FIXME
+String checker = " ";
+		String word = " ";
+		for (int i =0;i<wordList.size();i++) {
+			wordList.get(i) = word;
+			if (word == checker) {
+			
+				
+			}
+		// FIXME - look at MAP functions and studio help
 		throw new NotYetImplementedException();
 
 	}
